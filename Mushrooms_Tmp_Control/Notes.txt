@@ -1,0 +1,10 @@
+ESP32 based control
+
+TMP sensor had to be used in in the right row of pins (pin 18).
+when used on the left, the network would not connect properly.
+
+currently - only one LED for both network issues and sensor issues
+
+The device controls two chambers
+- mycelium grow chanmber - control tmp by applying heating to maintain tmp range.
+- fruiting chamber - time controled ventilation, misting. 
